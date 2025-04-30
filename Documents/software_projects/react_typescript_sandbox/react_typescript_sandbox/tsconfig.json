@@ -1,0 +1,36 @@
+// {
+//   "compilerOptions": {
+//     "types": [],
+//     "target": "es6", // Enables ES6+ features
+//     "lib": ["dom", "dom.iterable", "esnext"], // Includes Promise and modern libraries
+//     "module": "esnext", // Use ESNext module system
+//     "moduleResolution": "node", // Resolve Node-style modules
+//     "esModuleInterop": true, // Enables compatibility with CommonJS modules
+//     "forceConsistentCasingInFileNames": true,
+//     "strict": true, // Enables strict type checking
+//     "skipLibCheck": true, // Skips type checking of declaration files
+//     "jsx": "react-jsx" // Supports React JSX
+//   }
+//   // "include": ["src"]
+// }
+
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": ["src", "declarations.d.ts"]
+}
